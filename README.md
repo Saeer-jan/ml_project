@@ -2,14 +2,14 @@
 Welcome to my Machine Learning Project Repository!
 
 This repository is dedicated to my journey in learning and building machine learning projects.
-I’ll keep uploading more ML projects here over time — stay tuned! 🌟
+I’ll continue to upload more ML projects here over time — stay tuned! 🌟
 
 🏠 House Price Prediction (Linear Regression)
 The first project in this repository is a House Price Prediction model.
 It predicts the price of houses based on various features using a Linear Regression algorithm.
 
 ### Files
-##house_price_prediction.py — Python script that:
+## house_price_prediction.py — Python script that:
 
 Reads the dataset (USA_Housing.csv)
 
@@ -74,7 +74,7 @@ Copy
 Edit
 python house_price_prediction.py
 🔮 Future Projects
-I’ll continue adding more machine learning projects here — covering supervised learning, unsupervised learning, deep learning, and more.
+I’ll continue adding more machine learning projects here, covering supervised learning, unsupervised learning, deep learning, and more.
 Feel free to star ⭐ and follow the repo to get updates!
 
 ###🤝 Contributing
@@ -95,11 +95,11 @@ The first project in this repository is a House Price Prediction model.
 It predicts the price of houses based on various features using a Linear Regression algorithm.
 
 📂 Files
-✅ house_price_prediction.py — Python script that:
+✅ house_price_prediction.py, Python script that:
 
 Reads the dataset (USA_Housing.csv)
 
-Performs exploratory data analysis (EDA) with visualizations
+Performs exploratory data analysis (EDA) with visualisations
 
 Splits data into training and testing sets
 
@@ -112,7 +112,7 @@ Evaluates the model and prints metrics like MAE, MSE, RMSE, and R² Score
 📈 Output
 The script performs the following:
 
-Visualizes relationships and distributions using Seaborn and Matplotlib
+Visualises relationships and distributions using Seaborn and Matplotlib
 
 Trains a linear regression model with scikit-learn
 
@@ -160,7 +160,7 @@ Copy
 Edit
 python house_price_prediction.py
 🔮 Future Projects
-I’ll continue adding more machine learning projects here — covering supervised learning, unsupervised learning, deep learning, and more.
+I’ll continue adding more machine learning projects here, covering supervised learning, unsupervised learning, deep learning, and more.
 Feel free to star ⭐ and follow the repo to get updates!
 
 🤝 Contributing
