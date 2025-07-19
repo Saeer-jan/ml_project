@@ -1,173 +1,92 @@
+#### Machine Learning Projects Repository
+## Welcome to my Machine Learning Project Repository!
 
-Welcome to my Machine Learning Project Repository!
+This repository documents my journey in learning and building machine learning projects. Here I implement, experiment, and share a variety of ML models with datasets — all in the spirit of learning and growth.
 
-This repository is dedicated to my journey in learning and building machine learning projects.
-I’ll continue to upload more ML projects here over time — stay tuned! 🌟
+I’ll continue to add more projects over time — stay tuned! 🌟
 
-🏠 House Price Prediction (Linear Regression)
-The first project in this repository is a House Price Prediction model.
-It predicts the price of houses based on various features using a Linear Regression algorithm.
+### Projects So Far
+## House Price Prediction (Linear Regression)
+A Linear Regression model that predicts house prices based on various features.
 
-### Files
-## house_price_prediction.py — Python script that:
+Features:
+✅ Reads the dataset (USA_Housing.csv)
+✅ Exploratory Data Analysis (EDA) with visualizations
+✅ Splits data into training & testing sets
+✅ Trains a Linear Regression model
+✅ Evaluates with metrics like MAE, MSE, RMSE, R² Score
+✅ Plots residuals & relationships
 
-Reads the dataset (USA_Housing.csv)
+### Advertising Click Prediction (Logistic Regression)
+A Logistic Regression model that predicts whether a user will click on an advertisement based on demographics and behavior.
 
-Performs exploratory data analysis (EDA) with visualizations
+### Features:
+✅ Reads the dataset (advertising.csv)
+✅ Handles categorical variables and encodes them
+✅ EDA with histograms, jointplots, pairplots, heatmaps
+✅ Trains and evaluates a Logistic Regression model
+✅ Displays confusion matrix and classification report
+✅ Visualizes model coefficients
+✅ Saves trained model as logistic_regression_model.pkl
 
-Splits data into training and testing sets
+### Technologies Used
+Python 🐍
+pandas
+numpy
+matplotlib & seaborn
+scikit-learn
+joblib
 
-Trains a Linear Regression model
-
-Evaluates the model and prints metrics like MAE, MSE, RMSE, and R² Score
-
- ###Dataset: USA_Housing.csv (make sure to place it in the same folder)
-
-## Output
-The script performs the following:
-
-Visualizes relationships and distributions using Seaborn and Matplotlib
-
-Trains a linear regression model with scikit-learn
-
-Evaluates predictions and plots residuals
-
-Prints evaluation metrics:
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R² Score
-
-Sample Output:
-
-php-template
-Copy
-Edit
-Intercept: <value>
-Coefficients: [<values>]
-MAE: <value>
-MSE: <value>
-RMSE: <value>
-R2 Score: <value>
 ### How to Run
 1️⃣ Clone this repository:
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/ml-projects.git
+cd ml-projects
+
+2️⃣ Install dependencies:
 
 bash
 Copy
 Edit
-git clone https://github.com/<your-username>/ml-project.git
-cd ml-project
-2️⃣ Install the dependencies:
+pip install -r requirements.txt
+(or individually: numpy pandas matplotlib seaborn scikit-learn joblib)
 
-bash
-Copy
-Edit
-pip install numpy pandas matplotlib seaborn scikit-learn
-3️⃣ Run the script:
-
-bash
-Copy
-Edit
-python house_price_prediction.py
-🔮 Future Projects
-I’ll continue adding more machine learning projects here, covering supervised learning, unsupervised learning, deep learning, and more.
-Feel free to star ⭐ and follow the repo to get updates!
-
-###🤝 Contributing
-If you’d like to collaborate or suggest improvements, feel free to open an issue or submit a pull request.
-Let’s learn ML together!
-
-### Contact
-If you have questions, reach out to me via:
-📩 Email: saeerjansaeer@gmail.com
-🌐 LinkedIn: ML Project 📊🏠
-Welcome to my Machine Learning Project Repository!
-
-This repository is dedicated to my journey in learning and building machine learning projects.
-I’ll keep uploading more ML projects here over time — stay tuned! 🌟
-
-🏠 House Price Prediction (Linear Regression)
-The first project in this repository is a House Price Prediction model.
-It predicts the price of houses based on various features using a Linear Regression algorithm.
-
-📂 Files
-✅ house_price_prediction.py, Python script that:
-
-Reads the dataset (USA_Housing.csv)
-
-Performs exploratory data analysis (EDA) with visualisations
-
-Splits data into training and testing sets
-
-Trains a Linear Regression model
-
-Evaluates the model and prints metrics like MAE, MSE, RMSE, and R² Score
-
-✅ Dataset: USA_Housing.csv (make sure to place it in the same folder)
-
-📈 Output
-The script performs the following:
-
-Visualises relationships and distributions using Seaborn and Matplotlib
-
-Trains a linear regression model with scikit-learn
-
-Evaluates predictions and plots residuals
-
-Prints evaluation metrics:
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R² Score
-
-Sample Output:
-
-php-template
-Copy
-Edit
-Intercept: <value>
-Coefficients: [<values>]
-MAE: <value>
-MSE: <value>
-RMSE: <value>
-R2 Score: <value>
-🚀 How to Run
-1️⃣ Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/ml-project.git
-cd ml-project
-2️⃣ Install the dependencies:
-
-bash
-Copy
-Edit
-pip install numpy pandas matplotlib seaborn scikit-learn
-3️⃣ Run the script:
+3️⃣ Run the desired script:
 
 bash
 Copy
 Edit
 python house_price_prediction.py
-🔮 Future Projects
-I’ll continue adding more machine learning projects here, covering supervised learning, unsupervised learning, deep learning, and more.
-Feel free to star ⭐ and follow the repo to get updates!
+or
 
-🤝 Contributing
-If you’d like to collaborate or suggest improvements, feel free to open an issue or submit a pull request.
+bash
+Copy
+Edit
+python advertising_click_prediction.py
+
+
+### Future Plans
+I’ll keep adding more machine learning projects to this repository, covering:
+
+Supervised learning
+Unsupervised learning
+Deep learning
+Real-world datasets
+Advanced evaluation & deployment techniques
+
+# Feel free to watch and star the repo for updates!
+
+#### Contributing
+If you’d like to contribute, improve, or suggest ideas, feel free to:
+✅ Open an Issue
+✅ Submit a Pull Request
+
 Let’s learn ML together!
 
-📧 Contact
-If you have questions, reach out to me via:
-📩 Email: saeerjansaeer@gmail.com
-🌐 LinkedIn: https://www.linkedin.com/in/umainazeer?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkWFoBwScR1GeZw4akYhCXg%3D%3D
+📬 Contact
+If you have any questions or feedback:
+📧 Email: saeerjansaeer@gmail.com
+🌐 LinkedIn: Umair Nazeer
+
